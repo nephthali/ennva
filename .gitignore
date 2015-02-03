@@ -1,0 +1,11 @@
+.buildpath
+.project
+.settings/
+app/bootstrap.php.cache
+app/cache/dev/
+app/config/parameters.yml
+app/logs/dev.log
+bin/
+vendor/
+web/bundles/
+
