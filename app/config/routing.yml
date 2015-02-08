@@ -1,3 +1,4 @@
-app:
-    resource: @AppBundle/Controller/
+ennva_website:
+    resource: "@EnnvaWebsiteBundle/Controller/"
     type:     annotation
+    prefix:   /
