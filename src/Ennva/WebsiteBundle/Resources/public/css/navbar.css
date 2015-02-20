@@ -1,0 +1,44 @@
+nav{
+	
+}
+
+.navbar-wrapper .navbar{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar{
+	
+}
+
+.navbar-inverse{
+	background-color: #000033;
+	border-color: #003B7B;
+	background-image: linear-gradient(to bottom, #0F2741, #003B7B)
+}
+
+.navbar-static-top{
+	
+}
+
+.navbar-nav{
+	float: right;
+	margin-right: 100px;
+}
+
+.navbar-brand > img{
+	height: 50px;
+	width: 50px;
+}
+
+.navbar-brand > .img_art{
+	font-family: 'Aclonica', serif;
+	color: #fff;
+	margin: -50px 0px 0px 55px;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.navbar-nav > .active > a {
+	background-color: #0F2741 !important;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125) inset;
+}
