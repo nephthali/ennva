@@ -14,7 +14,13 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-       // return $this->render('EnnvaWebsiteBundle:Default:index.html.twig');
-        return $this->render('EnnvaWebsiteBundle:Layouts:base.html.twig');
+    	$templates = array("carousel_bootstrap", "carousel_jssor");
+    	$choice = 1;
+    	
+    	if($choice != 0)
+    	{
+    		return $this->render('EnnvaWebsiteBundle:Layouts:'.$templates[1].'.html.twig');
+    	}
+        return $this->render('EnnvaWebsiteBundle:Layouts:'.$templates[0].'.html.twig');
     }
 }
