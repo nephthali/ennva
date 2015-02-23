@@ -33,18 +33,33 @@ body {
 }
 
 /* CAROUSEL */
+.slide-image{
+	z-index: 50;
+}
+
+.slide-image > img {
+	border: solid 0px;
+	width: 200px;
+	height: 250px;
+}
+
 .slide-title{
 	float: left;
-	background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);
-	border: 1px solid #FFF;
+	/*background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);*/
+	border: 0px solid #FFF;
 	margin: -200px 0px 0px 210px;
-	font-family: 'Segoe UI',sans-serif;
+	font-family: "gloriahallelujah";
 	padding: 5px 5px;
 	text-align: justify;
 	line-height: 1.4;
 	font-weight: normal;
-	font-size: 14px;
-	color: #FFF;	
+	font-size: 24px;
+	color: #FFF;
+	z-index: 20;	
+}
+
+.slide-title > p{
+	font-family: "gloriahallelujah";
 }
 
 .slide-description{
@@ -58,13 +73,14 @@ body {
 	line-height: 1.4;
 	font-weight: normal;
 	font-size: 14px;
-	color: #FFF;	
+	color: #FFF;
+	z-index: 20;	
 }
 
 .slide-footer{
-	float: left;
-	background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);
-	border: 1px solid #FFF;
+	float: right;
+	/*background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);*/
+	border: 0px solid #FFF;
 	margin: -60px 0px 0px 210px;
 	font-family: 'Segoe UI',sans-serif;
 	padding: 5px 5px;
@@ -73,6 +89,17 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	color: #FFF;
+	z-index: 20;
+}
+
+.slide-footer > a{
+	padding: 10px 20px;
+}
+
+.img-rounded {
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
 }				
 
 /* jssor slider bullet navigator skin 01 */
@@ -302,4 +329,14 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+@font-face {
+    font-family: 'alphabetized';
+    src: url('alphabetizedcassettetapes.ttf');
+}
+
+@font-face {
+    font-family: 'gloriahallelujah';
+    src: url('gloriahallelujah.ttf') format('truetype');
 }
