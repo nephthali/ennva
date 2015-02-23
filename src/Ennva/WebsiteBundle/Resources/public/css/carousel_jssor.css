@@ -33,27 +33,47 @@ body {
 }
 
 /* CAROUSEL */
-.slider1_container{
-	position: relative;
-	top: 0px;
-	left: 0px;
-	height: 500px;
-	width: 1260px;
-	margin-bottom: 60px;
+.slide-title{
+	float: left;
+	background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);
+	border: 1px solid #FFF;
+	margin: -200px 0px 0px 210px;
+	font-family: 'Segoe UI',sans-serif;
+	padding: 5px 5px;
+	text-align: justify;
+	line-height: 1.4;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;	
 }
 
-.SlidesContainer{
-	cursor: move;
-	position: absolute;
-	overflow: hidden;
-	left: 0px;
-	top: 0px;
-	margin: 0 auto;
-	width: 1260px;
-	height: 500px;
-	display: inline-block;
+.slide-description{
+	float: left;
+	background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);
+	border: 1px solid #FFF;
+	margin: -160px 0px 0px 210px;
+	font-family: 'Segoe UI',sans-serif;
+	padding: 5px 5px;
+	text-align: justify;
+	line-height: 1.4;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;	
 }
 
+.slide-footer{
+	float: left;
+	background: none repeat scroll 0% 0% rgba(0, 59, 123, 0.5);
+	border: 1px solid #FFF;
+	margin: -60px 0px 0px 210px;
+	font-family: 'Segoe UI',sans-serif;
+	padding: 5px 5px;
+	text-align: justify;
+	line-height: 1.4;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;
+}				
 
 /* jssor slider bullet navigator skin 01 */
 	/*
