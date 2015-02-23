@@ -1,0 +1,285 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* CAROUSEL */
+.slider1_container{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 500px;
+	width: 1260px;
+	margin-bottom: 60px;
+}
+
+.SlidesContainer{
+	cursor: move;
+	position: absolute;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	margin: 0 auto;
+	width: 1260px;
+	height: 500px;
+	display: inline-block;
+}
+
+
+/* jssor slider bullet navigator skin 01 */
+	/*
+    .jssorb01 div           (normal)
+    .jssorb01 div:hover     (normal mouseover)
+    .jssorb01 .av           (active)
+    .jssorb01 .av:hover     (active mouseover)
+    .jssorb01 .dn           (mousedown)
+    */
+   /* bullet-01
+    .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
+    {
+        filter: alpha(opacity=70);
+        opacity: .7;
+        overflow:hidden;
+        cursor: pointer;
+        border: #000 1px solid;
+    }
+    .jssorb01 div { background-color: gray; }
+    .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+    .jssorb01 .av { background-color: #fff; }
+    .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+	*/
+	/*bullet-02  */
+	.jssorb02 div, .jssorb02 div:hover, .jssorb02 .av
+    {
+        background: url(../images/bullets/b02.png) no-repeat;
+        overflow:hidden;
+        cursor: pointer;
+    }
+    .jssorb02 div { background-position: -5px -5px; }
+    .jssorb02 div:hover, .jssorb02 .av:hover { background-position: -35px -5px; }
+    .jssorb02 .av { background-position: -65px -5px; }
+    .jssorb02 .dn, .jssorb02 .dn:hover { background-position: -95px -5px; }
+
+/* Arrow Navigator Skin Begin */
+    /* jssor slider arrow navigator skin 01 css */
+    /*
+    .jssora01l              (normal)
+    .jssora01r              (normal)
+    .jssora01l:hover        (normal mouseover)
+    .jssora01r:hover        (normal mouseover)
+    .jssora01ldn            (mousedown)
+    .jssora01rdn            (mousedown)
+    */
+    .jssora01l, .jssora01r, .jssora01ldn, .jssora01rdn
+    {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(../images/arrows/a01.png) no-repeat;
+        overflow:hidden;
+     }
+     .jssora01l { background-position: -8px -38px; }
+     .jssora01r { background-position: -68px -38px; }
+     .jssora01l:hover { background-position: -128px -38px; }
+     .jssora01r:hover { background-position: -188px -38px; }
+     .jssora01ldn { background-position: -8px -38px; }
+     .jssora01rdn { background-position: -68px -38px; }
+    
+    /* jssor slider arrow navigator skin 02 css */
+    .jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn
+    {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(../images/arrows/a02.png) no-repeat;
+        overflow:hidden;
+     }
+     .jssora02l { background-position: -3px -33px; }
+     .jssora02r { background-position: -63px -33px; }
+     .jssora02l:hover { background-position: -123px -33px; }
+     .jssora02r:hover { background-position: -183px -33px; }
+     .jssora02ldn { background-position: -3px -33px; }
+     .jssora02rdn { background-position: -63px -33px; }
+     
+     /* jssor slider arrow navigator skin 03 css */
+    .jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+    {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(../images/arrows/a03.png) no-repeat;
+        overflow:hidden;
+     }
+    .jssora03l { background-position: -3px -33px; }
+    .jssora03r { background-position: -63px -33px; }
+    .jssora03l:hover { background-position: -123px -33px; }
+    .jssora03r:hover { background-position: -183px -33px; }
+    .jssora03ldn { background-position: -243px -33px; }
+    .jssora03rdn { background-position: -303px -33px; }
+    
+    /* jssor slider arrow navigator skin 03 css */
+    .jssora04l, .jssora04r, .jssora04ldn, .jssora04rdn
+    {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(../images/arrows/a03.png) no-repeat;
+        overflow:hidden;
+     }
+    .jssora04l { background-position: -16px -39px; }
+    .jssora04r { background-position: -76px -39px; }
+    .jssora04l:hover { background-position: -136px -39px; }
+    .jssora04r:hover { background-position: -196px -39px; }
+    .jssora04ldn { background-position: -256px -39px; }
+    .jssora04rdn { background-position: -316px -39px; }
+
+/* jssor slider thumbnail navigator skin 01 css */
+    /*
+    .jssort01 .p           (normal)
+    .jssort01 .p:hover     (normal mouseover)
+    .jssort01 .pav           (active)
+    .jssort01 .pav:hover     (active mouseover)
+    .jssort01 .pdn           (mousedown)
+    
+    .jssort01 .w
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .jssort01 .c 
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 66px;
+        height: 66px;
+        border: #000 0px solid;
+     }
+    .jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c 
+    {
+        background: url(../images/thumbnails/t01.png) center center;
+        border-width: 0px;
+        top: 2px;
+        left: 2px;
+        width: 68px;
+        height: 68px;
+    }
+    .jssort01 .p:hover .c, .jssort01 .pav:hover .c 
+    {
+        top: 0px;
+        left: 0px;
+        width: 70px;
+        height: 70px;
+        border: #fff 0px solid;
+    }*/
+   
+/* caption style*/
+.bricon
+{
+    background: url(../images/browser-icons.png);
+}
+
+	
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
