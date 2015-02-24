@@ -10,6 +10,9 @@ javascripts %} {{ parent() }}
 {% endblock %} {% block carousel %} {{ parent() }}
 
 <!-- ------------------------------------- Jssor Carousel test -->
+<!--  div class="container-fluid">
+	<div class="row-fluid">
+		<div class="col-md-12 col-sd-12 col-gd-12">-->
 <div id="slider1_container" class="container-fluid"
 	style="position: relative; top: 0px; left: 0px; height: 500px; width: 1260px; margin-bottom: 60px;">
 	<!-- Slides Container -->
@@ -20,16 +23,8 @@ javascripts %} {{ parent() }}
 				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
 			<img u="thumb"
 				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/tech_support.png') }}" 
-						/>
-				</p>
-			</div>
 			<div u="caption" t="L" t2="T"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 100px; left: 200px; width: 800px; height: 50px;">
 				<p class="slide-image">
 					<img alt=""
 						src="{{ asset('bundles/ennvawebsite/images/services/img_big_ati_icon.png') }}" 
@@ -40,11 +35,11 @@ javascripts %} {{ parent() }}
 				</p>
 				<!-- You can move theses paragraph inside specific caption with specific transition -->
 				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
+				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  More Infos</a>
 				</p>
 			</div>
 			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 360px; left: 200px; width: 800px; height: 50px;">
 				<p class="img-rounded slide-description">
 				     <u>Description</u><br>
 					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
@@ -79,16 +74,8 @@ javascripts %} {{ parent() }}
 				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
 			<img u="thumb"
 				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/graphic.png') }}" 
-						/>
-				</p>
-			</div>
 			<div u="caption" t="L" t2="T"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 100px; left: 200px; width: 800px; height: 50px;">
 				<p class="slide-image" style="z-index: 50;">
 					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
 						src="{{ asset('bundles/ennvawebsite/images/services/img_big_gc_icon.png') }}" 
@@ -99,11 +86,11 @@ javascripts %} {{ parent() }}
 				</p>
 				<!-- You can move theses paragraph inside specific caption with specific transition -->
 				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
+				     <a class="btn btn-info " type="button" href="#">More Infos</a>
 				</p>
 			</div>
 			<div u="caption" t="B" t2="T"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 360px; left: 200px; width: 800px; height: 50px;">
 				<p class="img-rounded slide-description">
 				     <u>Description</u><br>
 					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
@@ -137,16 +124,8 @@ javascripts %} {{ parent() }}
 				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
 			<img u="thumb"
 				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/erp.png') }}" 
-						/>
-				</p>
-			</div>
 			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 100px; left: 200px; width: 800px; height: 50px;">
 				<p class="slide-image" style="z-index: 50;">
 					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
 						src="{{ asset('bundles/ennvawebsite/images/services/img_big_np_icon.png') }}" 
@@ -157,301 +136,11 @@ javascripts %} {{ parent() }}
 				</p>
 				<!-- You can move theses paragraph inside specific caption with specific transition -->
 				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
+				     <a class="btn btn-info " type="button" href="#">More Infos</a>
 				</p>
 			</div>
 			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
-				<p class="img-rounded slide-description">
-				     <u>Description</u><br>
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-					auctor. Duis mollis, est non commodo luctus.
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-				</p>
-			</div>
-			<div u="caption" t="MCLIP|B" t2="NO"
-				style="position: absolute; top: 450px; left: 0px; width: 1260px; height: 50px;">
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 1260px; height: 50px; background-color: Black; opacity: 0.5; filter: alpha(opacity = 50);">
-				</div>
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 600px; height: 50px; color: White; font-size: 16px; font-weight: bold; line-height: 50px; text-align: center;">
-					More Description of slider here: bla bla bla bla bla bla bla bla
-				</div>
-			</div>
-			<div u="caption" t="WAVE|L" class=bricon
-				style="position: absolute; top: 400px; left: 1050px; width: 30px; height: 30px; background-position: -120px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 1000px; width: 30px; height: 30px; background-position: -90px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 950px; width: 30px; height: 30px; background-position: -60px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 900px; width: 30px; height: 30px; background-position: -30px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 850px; width: 30px; height: 30px; background-position: 0px 0px;"></div>
-		</div>
-		<div class="fourth_slide">
-			<img u="image"
-				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
-			<img u="thumb"
-				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/website_design.png') }}" 
-						/>
-				</p>
-			</div>
-			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
-				<p class="slide-image" style="z-index: 50;">
-					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
-						src="{{ asset('bundles/ennvawebsite/images/services/img_big_rsi_icon.png') }}" 
-						/>
-				</p>
-				<p class="img-rounded slide-title">
-					Title
-				</p>
-				<!-- You can move theses paragraph inside specific caption with specific transition -->
-				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
-				</p>
-			</div>
-			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
-				<p class="img-rounded slide-description">
-				     <u>Description</u><br>
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-					auctor. Duis mollis, est non commodo luctus.
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-				</p>
-			</div>
-			<div u="caption" t="MCLIP|B" t2="NO"
-				style="position: absolute; top: 450px; left: 0px; width: 1260px; height: 50px;">
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 1260px; height: 50px; background-color: Black; opacity: 0.5; filter: alpha(opacity = 50);">
-				</div>
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 600px; height: 50px; color: White; font-size: 16px; font-weight: bold; line-height: 50px; text-align: center;">
-					More Description of slider here: bla bla bla bla bla bla bla bla
-				</div>
-			</div>
-			<div u="caption" t="WAVE|L" class=bricon
-				style="position: absolute; top: 400px; left: 1050px; width: 30px; height: 30px; background-position: -120px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 1000px; width: 30px; height: 30px; background-position: -90px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 950px; width: 30px; height: 30px; background-position: -60px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 900px; width: 30px; height: 30px; background-position: -30px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 850px; width: 30px; height: 30px; background-position: 0px 0px;"></div>
-		</div>
-		<div class="fifth_slide">
-			<img u="image"
-				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
-			<img u="thumb"
-				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/network_server.png') }}" 
-						/>
-				</p>
-			</div>
-			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
-				<p class="slide-image" style="z-index: 50;">
-					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
-						src="{{ asset('bundles/ennvawebsite/images/services/img_big_sr_icon.png') }}" 
-						/>
-				</p>
-				<p class="img-rounded slide-title">
-					Title
-				</p>
-				<!-- You can move theses paragraph inside specific caption with specific transition -->
-				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
-				</p>
-			</div>
-			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
-				<p class="img-rounded slide-description">
-				     <u>Description</u><br>
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-					auctor. Duis mollis, est non commodo luctus.
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-				</p>
-			</div>
-			<div u="caption" t="MCLIP|B" t2="NO"
-				style="position: absolute; top: 450px; left: 0px; width: 1260px; height: 50px;">
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 1260px; height: 50px; background-color: Black; opacity: 0.5; filter: alpha(opacity = 50);">
-				</div>
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 600px; height: 50px; color: White; font-size: 16px; font-weight: bold; line-height: 50px; text-align: center;">
-					More Description of slider here: bla bla bla bla bla bla bla bla
-				</div>
-			</div>
-			<div u="caption" t="WAVE|L" class=bricon
-				style="position: absolute; top: 400px; left: 1050px; width: 30px; height: 30px; background-position: -120px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 1000px; width: 30px; height: 30px; background-position: -90px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 950px; width: 30px; height: 30px; background-position: -60px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 900px; width: 30px; height: 30px; background-position: -30px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 850px; width: 30px; height: 30px; background-position: 0px 0px;"></div>
-		</div>
-		<div class="sixth_slide">
-			<img u="image"
-				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
-			<img u="thumb"
-				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/shopping_sales.png') }}" 
-						/>
-				</p>
-			</div>
-			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
-				<p class="slide-image" style="z-index: 50;">
-					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
-						src="{{ asset('bundles/ennvawebsite/images/services/img_big_vhs_icon.png') }}" 
-						/>
-				</p>
-				<p class="img-rounded slide-title">
-					Title
-				</p>
-				<!-- You can move theses paragraph inside specific caption with specific transition -->
-				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
-				</p>
-			</div>
-			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
-				<p class="img-rounded slide-description">
-				     <u>Description</u><br>
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-					auctor. Duis mollis, est non commodo luctus.
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-				</p>
-			</div>
-			<div u="caption" t="MCLIP|B" t2="NO"
-				style="position: absolute; top: 450px; left: 0px; width: 1260px; height: 50px;">
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 1260px; height: 50px; background-color: Black; opacity: 0.5; filter: alpha(opacity = 50);">
-				</div>
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 600px; height: 50px; color: White; font-size: 16px; font-weight: bold; line-height: 50px; text-align: center;">
-					More Description of slider here: bla bla bla bla bla bla bla bla
-				</div>
-			</div>
-			<div u="caption" t="WAVE|L" class=bricon
-				style="position: absolute; top: 400px; left: 1050px; width: 30px; height: 30px; background-position: -120px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 1000px; width: 30px; height: 30px; background-position: -90px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 950px; width: 30px; height: 30px; background-position: -60px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 900px; width: 30px; height: 30px; background-position: -30px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 850px; width: 30px; height: 30px; background-position: 0px 0px;"></div>
-		</div>
-		<div class="seventh_slide">
-			<img u="image"
-				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
-			<img u="thumb"
-				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 100px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/web_hosting.png') }}" 
-						/>
-				</p>
-			</div>
-			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
-				<p class="slide-image" style="z-index: 50;">
-					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
-						src="{{ asset('bundles/ennvawebsite/images/services/img_big_wh_icon.png') }}" 
-						/>
-				</p>
-				<p class="img-rounded slide-title">
-					Title
-				</p>
-				<!-- You can move theses paragraph inside specific caption with specific transition -->
-				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
-				</p>
-			</div>
-			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
-				<p class="img-rounded slide-description">
-				     <u>Description</u><br>
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-					auctor. Duis mollis, est non commodo luctus.
-					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-				</p>
-			</div>
-			<div u="caption" t="MCLIP|B" t2="NO"
-				style="position: absolute; top: 450px; left: 0px; width: 1260px; height: 50px;">
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 1260px; height: 50px; background-color: Black; opacity: 0.5; filter: alpha(opacity = 50);">
-				</div>
-				<div
-					style="position: absolute; top: 0px; left: 0px; width: 600px; height: 50px; color: White; font-size: 16px; font-weight: bold; line-height: 50px; text-align: center;">
-					More Description of slider here: bla bla bla bla bla bla bla bla
-				</div>
-			</div>
-			<div u="caption" t="WAVE|L" class=bricon
-				style="position: absolute; top: 400px; left: 1050px; width: 30px; height: 30px; background-position: -120px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 1000px; width: 30px; height: 30px; background-position: -90px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 950px; width: 30px; height: 30px; background-position: -60px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 900px; width: 30px; height: 30px; background-position: -30px 0px;"></div>
-			<div u="caption" t="WAVE|L" d="-1350" class=bricon
-				style="position: absolute; top: 400px; left: 850px; width: 30px; height: 30px; background-position: 0px 0px;"></div>
-		</div>
-		<div class="eighth_slide">
-			<img u="image"
-				src="{{ asset('bundles/ennvawebsite/images/slider_background.jpg') }}" />
-			<img u="thumb"
-				src="{{ asset('bundles/ennvawebsite/images/thumbnails/thumb-crm2.jpg') }}" />
-			<div u="caption" t="T" t2="NO"
-			     style="position: absolute; top: 100px; left: 970px; width: 150px; height: 100px;">
-			     <p class="slide-image">
-					<img alt="" class="img-rounded"
-						src="{{ asset('bundles/ennvawebsite/images/services/web_marketing.png') }}" 
-						/>
-				</p>
-			</div>
-			<div u="caption" t="TL" t2="TR"
-				style="position: absolute; top: 100px; left: 200px; width: 750px; height: 50px;">
-				<p class="slide-image" style="z-index: 50;">
-					<img alt="" style="border: solid 0px; width: 200px; height: 250px;"
-						src="{{ asset('bundles/ennvawebsite/images/services/img_big_wm_icon.png') }}" 
-						/>
-				</p>
-				<p class="img-rounded slide-title">
-					Title
-				</p>
-				<!-- You can move theses paragraph inside specific caption with specific transition -->
-				<p class="img-rounded slide-footer">
-				     <a class="btn btn-info " type="button" href="#"><span class="glyphicon glyphicon-check"></span>  Get More Infos</a>
-				</p>
-			</div>
-			<div u="caption" t="R" t2="B"
-				style="position: absolute; top: 360px; left: 200px; width: 750px; height: 50px;">
+				style="position: absolute; top: 360px; left: 200px; width: 800px; height: 50px;">
 				<p class="img-rounded slide-description">
 				     <u>Description</u><br>
 					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
@@ -483,7 +172,7 @@ javascripts %} {{ parent() }}
 		<!-- Navigator Skin Begin -->
 		<div u="navigator" class="jssorb02"
 			style="position: absolute; bottom: 70px; left: 6px;">
-			<!-- bullet navigator item prototype--> 
+			<!-- bullet navigator item prototype -->
 			<div u="prototype"
 				style="POSITION: absolute; WIDTH: 21px; HEIGHT: 21px; text-align: center; line-height: 21px; color: White; font-size: 12px;">
 				<div u="numbertemplate"></div>
@@ -517,4 +206,7 @@ javascripts %} {{ parent() }}
 			<!-- ThumbnailNavigator Skin End -->
 	</div>
 </div>
+<!-- /div>
+	</div>
+</div> -->
 {% endblock %}

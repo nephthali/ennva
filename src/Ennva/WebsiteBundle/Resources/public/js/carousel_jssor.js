@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
                     $Lanes: 1,
                     $SpacingX: 10,
                     $SpacingY: 10,
-                    $Orientation: 1,
+                    $Orientation: 1
                 },
                 $ArrowNavigatorOptions: {
                     $Class: $JssorArrowNavigator$,
