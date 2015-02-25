@@ -19,8 +19,8 @@ class DefaultController extends Controller
     	
     	if($choice != 0)
     	{
-    		return $this->render('EnnvaWebsiteBundle:Layouts:'.$templates[1].'.html.twig');
+    		return $this->render('EnnvaWebsiteBundle:Default:'.$templates[1].'.html.twig');
     	}
-        return $this->render('EnnvaWebsiteBundle:Layouts:'.$templates[0].'.html.twig');
+        return $this->render('EnnvaWebsiteBundle:Default:'.$templates[0].'.html.twig');
     }
 }
