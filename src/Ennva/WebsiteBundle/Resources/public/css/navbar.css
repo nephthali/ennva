@@ -8,13 +8,13 @@ nav{
 }
 
 .navbar{
-	
+	background: none repeat scroll 0% 0% #0F2741;
 }
 
 .navbar-inverse{
-	background-color: #000033;
-	border-color: #003B7B;
-	background-image: linear-gradient(to bottom, #0F2741, #003B7B)
+	border-color: #0F2741;
+	/*background-image: linear-gradient(to bottom, #0F2741, #003B7B)*/
+	background-color: #0F2741;
 }
 
 .navbar-static-top{
@@ -39,14 +39,52 @@ nav{
 }
 
 .navbar-nav > .active > a {
-	background-color: #0F2741 !important;
+	background-color: #003B7B; !important;
+	color: #FFF;
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125) inset;
+}
+
+.navbar-nav > li > a{
+	padding-right: 10px;
+	line-height: 20px;
+	font-family: "Segoe UI",sans-serif;
+	font-size: 18px;
+	color: #FFFFFF !important;;
+	z-index: 50; 
+}
+
+.navbar-nav > li:hover {
+	visibility: visible;
+	background-color: #1E639E;
+}
+/*
+.navbar-nav > li:focus {
+	visibility: visible;
+	color: #FFFFFF;
+}
+*/
+
+.dropdown-menu > li a{
+	font-size: 16px;
+}
+
+.dropdown-menu > li a:hover{
+	background-color: #1E639E !important;
 }
 
 .dropdown-submenu{
 	position:relative;
 	list-style-type: none;
 }
+
+.dropdown-submenu > li > a:hover {
+	background-color: #1E639E;
+}
+
+.dropdown-submenu > li > a{
+	
+}
+
 .dropdown-submenu > .dropdown-menu{
   top:0;
   left:100%;
@@ -54,8 +92,13 @@ nav{
   margin-left:-1px;
   -webkit-border-radius:0 6px 6px 6px;
   -moz-border-radius:0 6px 6px 6px;
-  border-radius:0 6px 6px 6px;}
-.dropdown-submenu:hover > .dropdown-menu{display:block;}
+  border-radius:0 6px 6px 6px;
+  }
+  
+.dropdown-submenu:hover > .dropdown-menu{
+	display:block;
+}
+
 .dropdown-submenu > a:after{
   display:block;
   content:" ";
@@ -67,16 +110,21 @@ nav{
   border-width: 5px 0 5px 5px;
   border-left-color: #cccccc;
   margin-top: 5px;
-  margin-right: -10px;}
+  margin-right: -10px;
+ }
+ 
 .dropdown-submenu:hover > a:after{
-  border-left-color:#ffffff;}
+  border-left-color:#ffffff;
+ }
+ 
 .dropdown-submenu.pull-left{
   float:none;
-  }
+ }
+
 .dropdown-submenu.pull-left > .dropdown-menu{
   left:-100%;
   margin-left:10px;
   -webkit-border-radius:6px 0 6px 6px;
   -moz-border-radius:6px 0 6px 6px;
   border-radius:6px 0 6px 6px;
-  }
+}

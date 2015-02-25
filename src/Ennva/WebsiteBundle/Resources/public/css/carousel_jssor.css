@@ -41,6 +41,7 @@ body {
 	border: solid 0px;
 	width: 200px;
 	height: 250px;
+	z-index: 50;
 }
 
 .slide-title{
