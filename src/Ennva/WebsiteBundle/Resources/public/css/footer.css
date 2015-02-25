@@ -1,3 +1,13 @@
+.footer-wrapper{
+	background-color: #0F2741; 
+	/*background-image: url(../images/guitar.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	/*opacity: 0.5; */
+	filter: opacity(0%);
+	color: white;	
+}
+
 .mailfooter{
 	margin-top: 0px ;
 	margin-bottom: 15px ;
