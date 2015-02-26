@@ -47,7 +47,7 @@ nav{
 .navbar-nav > li > a{
 	padding-right: 10px;
 	line-height: 20px;
-	font-family: "Segoe UI",sans-serif;
+	font-family: "UbuntuMono-R.ttf";
 	font-size: 18px;
 	color: #FFFFFF !important;;
 	z-index: 50; 
@@ -127,4 +127,69 @@ nav{
   -webkit-border-radius:6px 0 6px 6px;
   -moz-border-radius:6px 0 6px 6px;
   border-radius:6px 0 6px 6px;
+}
+
+@font-face {
+    font-family: 'Ubuntu-B.ttf';
+    src: url('fonts/ubuntu/Ubuntu-B.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-BI.ttf';
+    src: url('fonts/ubuntu/Ubuntu-BI.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-C.ttf';
+    src: url('fonts/ubuntu/Ubuntu-C.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-L.ttf';
+    src: url('fonts/ubuntu/Ubuntu-L.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-LI.ttf';
+    src: url('fonts/ubuntu/Ubuntu-LI.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-M.ttf';
+    src: url('fonts/ubuntu/Ubuntu-M.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-MI.ttf';
+    src: url('fonts/ubuntu/Ubuntu-MI.ttf');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-B.ttf';
+    src: url('fonts/ubuntu/UbuntuMono-B.ttf');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-BI.ttf';
+    src: url('fonts/ubuntu/UbuntuMono-BI.ttf');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-R.ttf';
+    src: url('fonts/ubuntu/UbuntuMono-R.ttf');
+}
+
+@font-face {
+    font-family: 'UbuntuMono-RI.ttf';
+    src: url('fonts/ubuntu/UbuntuMono-RI.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-R.ttf';
+    src: url('fonts/ubuntu/Ubuntu-R.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-RI.ttf';
+    src: url('fonts/ubuntu/Ubuntu-RI.ttf');
 }
