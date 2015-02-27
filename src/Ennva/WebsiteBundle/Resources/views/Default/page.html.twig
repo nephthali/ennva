@@ -1,0 +1,25 @@
+{% extends "EnnvaWebsiteBundle:Layouts:base.html.twig" %}
+
+{% block javascripts %}
+ {{ parent() }}
+<script
+	src="{{ asset('../web/bundles/ennvawebsite/js/carousel_jssor.js') }}"
+	type="text/javascript">
+</script>
+{% endblock %}
+
+{% block stylesheets %}
+ {{ parent() }}
+<link
+	href="{{ asset('../web/bundles/ennvawebsite/css/main.css') }}"
+	rel="stylesheet">
+<link
+	href="{{ asset('../web/bundles/ennvawebsite/css/footer.css') }}"
+	rel="stylesheet">
+{% endblock %}
+
+{% block navbar %}
+	{{ parent() }}
+{% embed "EnnvaWebsiteBundle:Layouts:navbar.html.twig"   %}
+	{% endembed %}
+{% endblock %}
