@@ -23,4 +23,14 @@ class DefaultController extends Controller
     	}
         return $this->render('EnnvaWebsiteBundle:Default:'.$templates[0].'.html.twig');
     }
+    
+    /**
+     * @Route("/page/{id}", defaults={"id" = 1}, name="page")
+     */
+    public function pageAction(Request $request)
+    {
+    	$id = $request->get('id');
+    	
+    	return $this->render('EnnvaWebsiteBundle:Default:page.html.twig');
+    }
 }
