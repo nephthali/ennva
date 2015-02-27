@@ -549,9 +549,11 @@
 	{% endembed %}
 {% endblock %}
 
-{% block marketing %}{% endblock %}
-	
-{% block featuretes %}{% endblock %}
+{% block achievements %}
+	{{ parent() }}
+	{% embed "EnnvaWebsiteBundle:Layouts:achievements.html.twig"   %}
+	{% endembed %}
+{% endblock %}
 
 {% block footer %}
 	{% embed "EnnvaWebsiteBundle:Layouts:footer.html.twig"   %}
