@@ -1,0 +1,25 @@
+.skills {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.skillstitle {
+	margin: 20px 0px 0px 20px;
+	font-family: "UbuntuMono-R.ttf";
+	font-size: 35px;
+}
+
+.skill-item{
+	line-height: 58px;
+	text-align: center;
+}
+
+.skill-item > img{
+	vertical-align: middle;
+	margin: auto;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0px none;
+}
