@@ -22,6 +22,8 @@ framework:
     session:
         # handler_id set to null will use default session handler from php.ini
         handler_id:  ~
+        # use the Magento session handler
+        #storage_id: liip_magento.session.storage
     fragments:       ~
     http_method_override: true
 
@@ -29,6 +31,17 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    
+# liip magento bundle Configuration
+#liip_magento:
+    # path to the Mage.php file
+    #mage_file:  %kernel.root_dir%/../../magento/app/Mage.php
+    # not for all store resolvers, mapping to store code
+    #store_mappings:
+        #it: it
+        #en: en
+        #de: de
+        #fr: en
 
 # Assetic Configuration
 assetic:

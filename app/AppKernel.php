@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Ennva\WebsiteBundle\EnnvaWebsiteBundle(),
             new Ennva\EcommerceBundle\EnnvaEcommerceBundle(),
+        	#new Liip\MagentoBundle\LiipMagentoBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
