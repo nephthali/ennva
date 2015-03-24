@@ -19,8 +19,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "twitter/bootstrap": "3.3.*@dev",
-        "components/jquery": "dev-master",
-        "liip/magento-bundle": "dev-master"
+        "components/jquery": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
