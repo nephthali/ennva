@@ -12,24 +12,25 @@
 
 <!-- Bootstrap core CSS -->
 {% block stylesheets %}
-<link href="{{ asset('../web/assetic/bootstrap_css_bootstrap_1.css') }}"
+<link href="{{ asset('assetic/bootstrap_css_bootstrap_1.css') }}"
 	rel="stylesheet">
-<link href="{{ asset('../web/bundles/ennvawebsite/css/main.css') }}"
+<link href="{{ asset('bundles/ennvawebsite/css/main.css') }}"
 	rel="stylesheet">
-<link href="{{ asset('../web/bundles/ennvawebsite/css/navbar.css') }}"
+<link href="{{ asset('bundles/ennvawebsite/css/navbar.css') }}"
 	rel="stylesheet">
 {% endblock %}
 
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 {% block javascripts %}
-<script src="{{ asset('../web/assetic/jquery_jquery_1.js') }}"
+<script src="{{ asset('assetic/jquery_jquery_1.js') }}"
 	type="text/javascript"></script>
-<script src="{{ asset('../web/assetic/bootstrap_js_bootstrap_1.js') }}"
+<script src="{{ asset('assetic/bootstrap_js_bootstrap_1.js') }}"
 	type="text/javascript"></script>
 <script src="{{ asset('bundles/ennvawebsite/js/carousel.js') }}"
 	type="text/javascript"></script>
-<script src="bundles/ennvawebsite/js/jssor.slider.mini.js"></script>
+<script src="{{ asset('bundles/ennvawebsite/js/jssor.slider.mini.js') }}" 
+    type="text/javascript"></script>
 {% endblock %}
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,6 +49,8 @@
 
 	{% block breakcrumb %}{% endblock %}
 	
+	{% block pageContent %}{% endblock %}
+	
 	{% block carousel %}{% endblock %}
 	
 	{% block skills %}{% endblock %}
@@ -59,6 +62,8 @@
     {% block featuretes %}{% endblock %}
 
 	{% block footer %}{% endblock %}
+	
+	{% block shortfooter %}{% endblock %}
 
 </body>
 

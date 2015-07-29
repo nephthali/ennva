@@ -1,0 +1,12 @@
+<!-- sidebar -->
+<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+    <ul class="nav">
+        <li class="active"><a href="{{ path('homepage') }}">Home</a></li>
+        {% for subpage in page.subpages %}
+        	{% if subpage %}
+        	<li><a href="{{  path('subpage', { 'page_id':page.id, 'subpage_id':subpage.id } ) }}">{{ subpage.title }}</a></li>
+        	{% endif %}
+        {% endfor %}
+    </ul>
+</div>
+  	

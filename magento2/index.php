@@ -33,6 +33,22 @@ HTML;
     exit(1);
 }
 
+$maintenanceFile = 'maintenance.flag';
+$ip = $_SERVER['REMOTE_ADDR'];
+
+/***************
+ * IP's allowed in maintenance.
+ * Use publicly visible IP addresses on LIVE, local if on DEV
+***************/
+
+$allowed = array('127.0.0.1');
+
+if (file_exists($maintenanceFile) && !in_array($ip, $allowed)) {
+	$basePath = dirname($_SERVER['PHP_SELF']);
+	include_once dirname(__FILE__) . '/pub/errors/503.php';
+	exit;
+}
+
 $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
 /** @var \Magento\Framework\App\Http $app */
 $app = $bootstrap->createApplication('Magento\Framework\App\Http');

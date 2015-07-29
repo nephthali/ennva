@@ -127,9 +127,12 @@ class View extends \Magento\Framework\App\Action\Action
         if (!$categoryId) {
             return false;
         }
-
+        
+        var_dump($categoryId);
+        
         try {
             $category = $this->categoryRepository->get($categoryId, $this->_storeManager->getStore()->getId());
+            var_dump($category); exit();
         } catch (NoSuchEntityException $e) {
             return false;
         }

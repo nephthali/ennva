@@ -3,7 +3,7 @@
 {% block javascripts %}
  {{ parent() }}
 <script
-	src="{{ asset('../web/bundles/ennvawebsite/js/carousel_jssor.js') }}"
+	src="{{ asset('bundles/ennvawebsite/js/carousel_jssor.js') }}"
 	type="text/javascript">
 </script>
 {% endblock %}
@@ -11,23 +11,26 @@
 {% block stylesheets %}
  {{ parent() }}
 <link
-	href="{{ asset('../web/bundles/ennvawebsite/css/main.css') }}"
+	href="{{ asset('bundles/ennvawebsite/css/main.css') }}"
 	rel="stylesheet">
 <link
-	href="{{ asset('../web/bundles/ennvawebsite/css/carousel_jssor.css') }}"
+	href="{{ asset('bundles/ennvawebsite/css/carousel_jssor.css') }}"
 	rel="stylesheet">
 <link
-	href="{{ asset('../web/bundles/ennvawebsite/css/footer.css') }}"
+	href="{{ asset('bundles/ennvawebsite/css/footer.css') }}"
 	rel="stylesheet">
 <link
-	href="{{ asset('../web/bundles/ennvawebsite/css/skills.css') }}"
+	href="{{ asset('bundles/ennvawebsite/css/skills.css') }}"
 	rel="stylesheet">
 {% endblock %}
 
 {% block navbar %}
 	{{ parent() }}
-{% embed "EnnvaWebsiteBundle:Layouts:navbar.html.twig"   %}
-	{% endembed %}
+	
+	{{ render(controller('EnnvaWebsiteBundle:Navbar:index')) }}
+	
+	{#% embed "EnnvaWebsiteBundle:Layouts:navbar.html.twig" with { 'pages' : 'pages'}   %}
+	{% endembed %#}
 {% endblock %}
 
 {% block carousel %}

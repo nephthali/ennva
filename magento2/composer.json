@@ -2,6 +2,7 @@
     "name": "magento/project-community-edition",
     "description": "Magento project (Community Edition)",
     "type": "project",
+    "minimum-stability": "beta",
     "version": "0.74.0-beta1",
     "license": [
         "OSL-3.0",
@@ -153,6 +154,7 @@
         "magento/language-pt_br": "self.version",
         "magento/language-zh_cn": "self.version",
         "magento/framework": "self.version",
+        "magento/sample-data": "0.42.0-beta11",
         "trentrichardson/jquery-timepicker-addon": "1.4.3",
         "colinmollenhour/cache-backend-redis": "dev-master#193d377b7fb2e88595578b282fa01a62d1185abc",
         "colinmollenhour/credis": "dev-master#f07bbfd4117294f462f0fb19c49221d350bf396f",

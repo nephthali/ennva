@@ -1,5 +1,7 @@
 <!-- NAVBAR
 ================================================== -->
+{#% for page in pages %#}
+
 	<div class="navbar-wrapper">
 		<div class="container-fluid">
 			<nav class="navbar navbar-inverse navbar-static-top">
@@ -19,57 +21,57 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class=""><a href="#" data-toggle="dropdown">Home</a></li>
-							<li class="dropdown"><a href="#about" class="dropdown-toggle"
+							<li class=""><a href="{{ path('homepage') }}" >Home</a></li>
+							<li class="dropdown"><a href="{{  path('page', { 'id':pages[0].id } ) }}" class="dropdown-toggle"
 								data-toggle="dropdown" role="button" aria-expanded="false">About
 									<span class="caret"></span>
 							</a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Introduction</a></li>
-									<li><a href="#">Brands</a></li>
-									<li><a href="#">Certification</a></li>
+									<li><a href="{{  path('page', { 'id':pages[1].id } ) }}">Introduction</a></li>
+									<li><a href="{{  path('page', { 'id':pages[2].id } ) }}">Brands</a></li>
+									<li><a href="{{  path('page', { 'id':pages[3].id } ) }}">Certification</a></li>
 									<li class="divider"></li>
-									<li><a href="#">Jobs vacancies</a></li>
-									<li><a href="#">More</a></li>
+									<li><a href="{{  path('page', { 'id':pages[4].id } ) }}">Jobs vacancies</a></li>
+									<li><a href="{{  path('page', { 'id':pages[5].id } ) }}">More</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="#about" class="dropdown-toggle"
+							<li class="dropdown"><a href="#" class="dropdown-toggle"
 								data-toggle="dropdown" role="button" aria-expanded="false">Services
 									<span class="caret"></span>
 							</a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Tech support</a></li>
-									<li><a href="#">E-commerce</a></li>
-									<li><a href="#">Server @ Software</a></li>
+									<li><a href="{{  path('page', { 'id':pages[6].id } ) }}">Tech support</a></li>
+									<li><a href="{{  path('page', { 'id':pages[7].id } ) }}">E-commerce</a></li>
+									<li><a href="{{  path('page', { 'id':pages[8].id } ) }}">Server @ Software</a></li>
 									<li class="divider"></li>
 									<li class="dropdown-submenu">
-										<a tabindex="-1" href="#">Management software</a>
+										<a tabindex="-1" href="{{  path('page', { 'id':pages[9].id } ) }}">Management software</a>
 										<ul class="dropdown-menu">
 											<li class="dropdown-submenu">
 												<ul class="dropdown-menu">
 													<li><a href="#">3rd level</a></li>
 													<li><a href="#">3rd level</a></li>
 												</ul></li>
-											<li><a href="#">ERP</a></li>
-											<li><a href="#">CRM</a></li>
-											<li><a href="#">BUSINESS INTELIGENCE</a></li>
-											<li><a href="#">FINANCING</a></li>
+											<li><a href="{{  path('page', { 'id':pages[10].id } ) }}">ERP</a></li>
+											<li><a href="{{  path('page', { 'id':pages[11].id } ) }}">CRM</a></li>
+											<li><a href="{{  path('page', { 'id':pages[12].id } ) }}">BUSINESS INTELIGENCE</a></li>
+											<li><a href="{{  path('page', { 'id':pages[13].id } ) }}">FINANCING</a></li>
 										</ul>
 									</li>
 								</ul></li>
-							<li class="dropdown"><a href="#about" class="dropdown-toggle"
+							<li class="dropdown"><a href="#" class="dropdown-toggle"
 								data-toggle="dropdown" role="button" aria-expanded="false">Web Services
 									<span class="caret"></span>
 							</a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">Web Marketing</a></li>
-									<li><a href="#">Web Hosting</a></li>
-									<li><a href="#">Graphic Design</a></li>
+									<li><a href="{{  path('page', { 'id':pages[15].id } ) }}">Web Design</a></li>
+									<li><a href="{{  path('page', { 'id':pages[16].id } ) }}">Web Marketing</a></li>
+									<li><a href="{{  path('page', { 'id':pages[17].id } ) }}">Web Hosting</a></li>
+									<li><a href="{{  path('page', { 'id':pages[18].id } ) }}">Graphic Design</a></li>
 									<li class="divider"></li>
-									<li><a href="#">Achievements</a></li>
+									<li><a href="{{  path('page', { 'id':pages[19].id } ) }}">Achievements</a></li>
 								</ul></li>
-							<li><a href="#highlights" data-toggle="dropdown">Highlights</a></li>
-							<li><a href="#contact" data-toggle="dropdown">Contact</a></li>
+							<li><a href="{{  path('page', { 'id':pages[20].id } ) }}" >Highlights</a></li>
+							<li><a href="{{  path('page', { 'id':pages[21].id } ) }}" >Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -77,3 +79,4 @@
 
 		</div>
 	</div>
+{#% endfor %#}
